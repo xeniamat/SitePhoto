@@ -1,0 +1,41 @@
+%!Adobe-FontList 1.14
+%Locale:0x419
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Tahoma
+FamilyName:Tahoma
+StyleName:Regular
+FullName:Tahoma
+MenuName:Tahoma
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:G:\projects\Alexei.P\1 my project\my project's\Paparazzi\Paparazzi -1\Font\tahoma.ttf
+DataFormat:sfntData
+FileLength:697972
+FileModTime:1244663052
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Tahoma-Bold
+FamilyName:Tahoma
+StyleName:Bold
+FullName:Tahoma Bold
+MenuName:Tahoma
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:G:\projects\Alexei.P\1 my project\my project's\Paparazzi\Paparazzi -1\Font\tahomabd.ttf
+DataFormat:sfntData
+FileLength:647184
+FileModTime:1244663052
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+

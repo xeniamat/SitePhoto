@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+  <html lang ="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="keywords" content="paparazzi, фотоаппарат, видеокамера, фотоаксессуары">
+		<meta name="description" content="Интерент магазин Paparazzi, продажа фото- и видеоаппаратуры">
+		<title>Оплата</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+
+	<body>
+			<header class="page-header">
+		        <div class="container">
+		            <div class="header">
+			            <div class="header__menu">
+			              	<ul>
+					            <li><a href="index.html">О компании</a></li>
+					            <li><a href="Payment.html">Оплата</a></li>
+					            <li><a href="delivery.html">Доставка</a></li>
+					            <li><a href="return.html">Обмен и возврат</a></li>
+					            <li><a href="contsct.html">Контакты</a></li>
+				            </ul>
+				        </div>				                    
+			            <div class="header__info">
+			                <div class="info-order">
+			                    <img src="img/6.png" alt="">
+				   				<a href="#">Что с моим заказом?</a>
+				   			</div>
+				   			<div class="info-office">
+					   			<img src="img/7.png" alt="">
+					   			<a href="#">Личный кабинет</a>
+					   		</div>
+				   		</div>				   			    
+				    </div>
+			   	</div>
+			</header>
+
+				<nav class="page-nav">	  
+					<div class="container">
+						<div class="nav">		
+							<div class="nav__title">
+								<span class="nav__title-logo">Папарa<span>zz</span>и</span><br>
+								<span class="nav__title-text">фототехника</span>
+							</div>	
+							<div class="nav__text">
+								<span>Интернет магазин фототехники</span>
+							</div>
+							<div class="nav__adress">
+								<span><a href="#"><img src="img/1.png" alt="">Минск</a></span><br>
+								<span>10:00 - 22:00 | пн - вс</span>
+							</div>
+							<div class="nav__service">
+								<span><a href="#">Обмен и возврат товара</a> без проблем</span><br>
+								<span>Оплата при <a href="#">получении заказа</a></span>
+							</div>
+							<div class="nav__tel">
+								<span><img src="img/136.png" alt=""><a class="phone-number" href="tel:029123456789">029 123 45 67</a></span><br>
+								<span><a class="help" href="#">Помощь экспертов</a> бесплатно</span>
+							</div>
+							<div class="nav__icon">
+								<a href="#"><img src="img/vk-icon.png" alt=""></a>
+								<a href="#"><img src="img/instagram.png" alt=""></a>
+								<a href="#"><img src="img/130.png" alt=""></a>
+							</div>		
+						</div>
+					</div>
+				</nav>	
+		    				
+
+				<div class="page-catalog">         
+		            <div class="container">		            	
+			             <div class="catalog">
+						    <div class="catalog__goods">
+								<span><img src="img/2.png" alt=""><a href="index.html">Каталог товаров</a></span>
+							</div>
+							<div class="catalog__search">
+								<form action="#">
+									<input type="text" name="search" placeholder="Поиск по 5000 товарам" required="">
+								</form>
+								<!-- <img src="img/icon_find.png" alt=""> -->
+							</div>
+							<div class="catalog__basket">
+								<span><img src="img/korz.png" alt=""><a href="#">Ваша корзина пуста</a></span>
+							</div>
+						 </div> 						          			        	    		                    
+		            </div> 
+		        </div>  		
+			
+		 <main class="page-payment">
+			<div class="container">
+					<div class="breadcrumbs-row">
+			            <p><a href="index.html">Папарацци фототехника</a>&nbsp; > &nbsp;<a href="#"></a>Оформление заказа</p> 
+			            <h2 class="card-title">Оформление заказа</h2>
+			        </div>	
+			         <form action="#" method="post" class="form" id="form-private" target="_blank">
+			       		<div class="page-payment__container">
+			       			<div class="payment-container">
+				       			<div class="payment-IP">
+				         	        <p class="payment-IP__text">Информация о покупателе</p>
+						        	<span>Тип плательщика:</span>
+									    <label>
+									   		<input type="radio" name="type" value="Man" checked> Физическое лицо
+									   	</label>
+									    <label>
+									   		<input type="radio" name="type" value="Org"> Организация или ИП
+									    </label>
+				               </div>
+							    <div class="payment-information">	
+							  		<div class="payment-information__form">
+							        	<input type="text" value="" class="textfield" name="nameinfo" placeholder="Имя:"><br>
+							        	<span class="red hidden-err" id="hidden_name">Введите имя</span><br>
+
+							        	<input type="text" value="" class="textfield" name="surname" placeholder="Фамилия:"><br>
+							        	<span class="red hidden-err" id="hidden_surname">Введите фамилию</span><br>
+
+							        	<input type="email" value="" class="textfield" name="email" placeholder="Email: ivanov@mail.com"><br>
+							        	<span class="red hidden-err" id="hidden_email">Введите email</span><br>
+						        	</div>
+									<div class="payment-information__adress">
+										<input type="text" value="" class="textfield" name="phone" maxlength="11" placeholder="Телефон: 80XX-XXX-XX-XX"><br>
+										<span class="red hidden-err" id="hidden_phone">Введите телефон</span><br>
+
+										<input type="text" value="" class="textfield" name="index" maxlength="6" placeholder="Индекс:"><br>
+										<span class="red hidden-err" id="hidden_index">Введите индекс</span><br>
+
+										<input type="text" value="" class="textfield" name="adress" placeholder="Адрес:"><br>
+										<span class="red hidden-err" id="hidden_adress">Введите адрес</span><br>
+									</div>
+							    </div> 
+								<div class="method-payment">								
+							   		<p>Метод оплаты</p>
+								    <label>
+								    	<input type="radio" name="method" value="Card" checked> <img src="img/visa_pay.png" alt="pic"><span>Оплата пластиковой картой</span>
+								    </label><br>
+									<label>
+										<input type="radio" name="method" value="Cash"> <img src="img/cdek_pay.png" alt="pic"><span>Оплата наличными при получении заказа</span>
+									</label>								
+						  		</div>
+						  		<div class="paybut">
+						  			<button class="form-btn" type="submit" value="">Продолжить</button>
+						  		</div>
+							</div>
+							
+							<div class="payment-stuff">
+								<p class="payment-stuff__logo">Состав заказа</p>
+							  	    <div class="payment-stuff__card">
+								  	    <div class="stuff-card">
+								  		    <img src="img/pay_pic1.png" alt="">
+								  		    <p>Набор Nicon для чистки фототехники</p>
+								  		    <input type="number" name="count"  min="0" max="100" step="1" placeholder="">
+									    </div>
+									    <div class="stuff-card__price">
+									        <p class="price">Цена: 0000 руб.</p>
+									    </div>
+							  	    </div>
+							  	    <div class="payment-stuff__card">
+								  	    <div class="stuff-card">
+								  		    <img src="img/pay_pic3.png" alt="">
+								  		    <p>Кольцевая фотофспышка Yongnuo YN-EX</p>
+								  		    <input type="number" name="count"  min="0" max="100" step="1" placeholder="">
+									    </div>
+									    <div class="stuff-card__price">
+									        <p class="price">Цена: 0000 руб.</p>
+									    </div>
+							  	    </div>
+							  	    <div class="payment-stuff__card-price">
+							  			<div class="card-price">
+							  		  		<div class="card-price__row">
+							  		  			<div>Стоимость товаров:</div>
+							  		  			<div>Стоимость доставки:</div>
+							  		  			<div>Комиссия (налож. платёж):</div>
+							  		  		</div>
+							  		  		<div class="card-price__row">
+								  		   		<div>0000 руб.</div>
+								  		   		<div>0000 руб.</div>
+								  		   		<div>0000 руб.</div>
+								  		   	</div>						  			
+							  			</div>
+							  		</div> 						  		      
+							  			<div class="card-price__total">
+							  			    <div class="total-row">ИТОГО:</div>						  		    
+								  			<div class="total-row">0000 руб.</div>										  			
+							  		    </div> 
+							  	     
+						    </div>
+				   		</div>
+				   </form>
+			</div>
+		</main>	 
+
+				<div class="pre-footer">         
+		            <div class="container">
+		              <div class="yandex">
+					      <div class="main-title"><h2>Наш магазин на яндекс маркет</h2></div>
+							  <div class="yandex__rating">
+								<div class="yandex__rating-img"><a href="#"><img src="img/Yandex.png" alt=""></a></div>
+								<div class="yandex__rating-text"><span>Общий рейтинг на основе отзывов покупателей и данных службы <br> 
+								качества Маркета за последние 3 месяца</span></div>
+							  </div>								
+							  <div class="main-but">
+								<button type="submit" name="comment">Отзывы покупателей на маркете &#8594;</button>
+						    </div>
+					  </div> 
+					</div>          			        	    		                    
+		       	</div>  
+	  
+					<footer class="page-footer">         
+					    <div class="container">
+					        <div class="footer">
+								<div class="footer__menu">
+									<ul>
+										<li><a href="#">Фотоаппараты и видеокамеры</a></li>
+										<li><a href="#">Фотоаксессуары</a></li>
+										<li><a href="#">Объективы</a></li>
+										<li><a href="#">Аксессуары для объективов</a></li>
+										<li><a href="#">Аккумуляторы и зарядки</a></li>
+										<li><a href="#">Вспышки и видеосвет</a></li>
+										<li><a href="#">Штативы и моноподы</a></li>
+										<li><a href="#">Рюкзаки, сумки и ремни</a></li>
+										<li><a href="#">Оборудование для фотостудии</a></li>
+										<li><a href="#">Оборудование для видеосъемки</a></li>
+										<li><a href="#">Комиссионный товар</a></li>
+									</ul>
+								</div>
+								<div class="footer__company">
+									<ul>
+										<li><a href="#">О компании</a></li>
+										<li><a href="#">Доставка</a></li>
+										<li><a href="#">Доставка</a></li>
+										<li><a href="#">Обмен и возврат</a></li>
+										<li><a href="#">Контакты</a></li>
+									</ul>
+								</div>
+								<div class="footer__date">
+									<img src="img/11.png" alt="">
+									<span><a href="#">Минск</a><br>10:00 - 22:00 | пн - вс<br>
+									<a href="#">Обмен и возврат товара</a> без проблем<br>
+									Оплата при <a href="#">получении заказа</a></span>
+								</div>
+								<div class="footer__info">
+									<div class="footer__info-tel">
+										<span class="number"><img src="img/12.png" alt=""> 029 123 45 67</span><br>
+										<span><a href="#">Помощь экспертов</a> бесплатно</span>
+									</div>
+									<div class="footer__info-vk">
+										<span>Мы в социальных сетях</span>
+										<img src="img/13.png" alt="">	
+										<img src="img/14.png" alt="">	
+									</div>
+									<!-- <div class="footer__info-payment">						
+										<span>Безопасные платежи <br> через Best2Pay</span><br>
+										<img src="img/2pay.jpg" alt="">										
+									</div>
+									<div class="footer__info-pic">
+										<img src="img/visa.jpg" alt="">
+										<img src="img/master-card.png" alt="">	
+									</div> -->
+									<div class="footer__info-adress">
+										<p>Политика персональных данных<br>
+										ООО "Папарации фототехника", 2018<br>
+										support by webteam.by</p><br>
+										<a href="#">Добавить в закладки</a>
+									</div>
+								</div>
+						    </div> 
+						</div>                
+					</footer>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/script.js"></script>
+    </body>
+</html>  
